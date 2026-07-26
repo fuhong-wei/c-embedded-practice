@@ -1,4 +1,4 @@
-/**
+/** 
  * Day 2: 函数、作用域、static/extern
  * 日期: 2026-07-23
  * 内容: 函数定义与调用、局部/全局变量、static的三种用法、extern
@@ -6,8 +6,8 @@
  * 编译运行:
  *   gcc -Wall day02_functions.c -o day02_functions.exe
  *   ./day02_functions.exe
- */
-
+ *
+*/
 #include <stdio.h>
 #include <string.h>
 

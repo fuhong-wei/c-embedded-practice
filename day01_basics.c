@@ -4,7 +4,9 @@
  * 内容: 数据类型、运算符、控制流
  *
  * 编译运行:
- *   gcc day01_basics.c -o day01_basics.exe
+ *   
+ * 
+ * 
  *   ./day01_basics.exe
  */
 
@@ -49,9 +51,8 @@ void exercise2_operators(void) {
     } else {
         printf("第5位 = 0 (低电平)\n");
     }
-    printf("// 提示: 位运算是操作MCU寄存器的基本功，必须滚瓜烂熟\n\n");
+    printf("// 提示: 位运算是操作MCU寄存器的基本功,必须滚瓜烂熟\n\n");
 }
-
 // ========== 练习3: 控制流 ==========
 void exercise3_control_flow(void) {
     printf("===== 练习3: 控制流 =====\n");

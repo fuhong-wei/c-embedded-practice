@@ -3,5 +3,9 @@
 *.o
 *.out
 
+# VSCode配置
+.vscode/
+
 # 临时文件
 *.tmp
+c
