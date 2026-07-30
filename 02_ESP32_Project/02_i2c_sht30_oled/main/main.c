@@ -29,7 +29,7 @@ static const char *TAG = "MAIN";
 #define I2C_PORT        I2C_NUM_0
 #define I2C_SCL_IO      GPIO_NUM_6
 #define I2C_SDA_IO      GPIO_NUM_7
-#define I2C_FREQ_HZ     100000   // 100KHz, OLED可在初始化时升到400KHz
+#define I2C_FREQ_HZ     10000    // 10KHz (没有外部上拉电阻,降速保稳定)
 
 // ---- 采样周期 ----
 #define SAMPLE_INTERVAL_MS  2000   // 每2秒采样一次
